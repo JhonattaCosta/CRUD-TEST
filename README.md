@@ -151,5 +151,3 @@ Este projeto é licenciado sob a Licença ISC. Veja mais detalhes em [ISC Licens
 
 ---
 =======
-# CRUD-TEST
->>>>>>> origin/main
