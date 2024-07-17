@@ -1,0 +1,25 @@
+<div class="centralized-div">
+  <h1>Editar Postagem</h1>
+  <form action="/update/{{postagem.id}}" method="POST">
+    <div>
+      <label for="titulo">Título:</label>
+      <input
+        type="text"
+        id="titulo"
+        name="titulo"
+        value="{{postagem.titulo}}"
+        required
+      />
+    </div>
+    <div>
+      <label for="conteudo">Conteúdo:</label>
+      <textarea
+        id="conteudo"
+        name="conteudo"
+        required
+      >{{postagem.conteudo}}</textarea>
+    </div>
+    <button type="submit">Atualizar</button>
+  </form>
+  <a href="/blog"><button>Cancelar</button></a>
+</div>

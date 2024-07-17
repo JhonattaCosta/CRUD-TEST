@@ -1,0 +1,16 @@
+<div class="centralized-div">
+  <h1>Blog de Postagens</h1>
+  <div id="postagens-container">
+    {{#each postagens}}
+      <div class="postagem">
+        <h2>{{titulo}}</h2>
+        <p>{{conteudo}}</p>
+        <form action="/delete/{{id}}" method="POST">
+          <button type="submit">Apagar</button>
+        </form>
+        <a href="/edit/{{id}}"><button>Editar</button></a>
+      </div>
+    {{/each}}
+  </div>
+  <a href="/"><button>Voltar</button></a>
+</div>

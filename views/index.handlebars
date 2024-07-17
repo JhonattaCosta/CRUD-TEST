@@ -1,0 +1,15 @@
+<div class="centralized-div">
+  <h1>Envie uma nova postagem</h1>
+  <form action="/submit" method="post">
+    <div>
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo" required />
+    </div>
+    <div>
+      <label for="conteudo">Conteúdo:</label>
+      <textarea id="conteudo" name="conteudo" required></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+  <a href="/blog"><button>Ver Postagens</button></a>
+</div>

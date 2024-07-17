@@ -1,0 +1,100 @@
+:root {
+  --font-family: Arial, sans-serif;
+  --background-color: #f2f2f2;
+  --main-bg-color: #fff;
+  --main-text-color: #333;
+  --secondary-text-color: #666;
+  --border-color: #ccc;
+  --border-radius: 8px;
+  --box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  --input-border-color: #ccc;
+  --input-border-radius: 4px;
+  --button-bg-color: #007bff;
+  --button-hover-bg-color: #0056b3;
+  --button-text-color: #fff;
+  --post-bg-color: #f9f9f9;
+  --post-border-color: #ddd;
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+}
+
+.centralized-div {
+  background-color: var(--main-bg-color);
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.centralized-div h1 {
+  color: var(--main-text-color);
+  margin-bottom: 20px;
+}
+
+.centralized-div form {
+  display: flex;
+  flex-direction: column;
+}
+
+.centralized-div form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.centralized-div label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+.centralized-div input,
+.centralized-div textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--input-border-color);
+  border-radius: var(--input-border-radius);
+  box-sizing: border-box;
+}
+
+.centralized-div button {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: var(--input-border-radius);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.centralized-div button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.postagem {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid var(--post-border-color);
+  border-radius: var(--border-radius);
+  background-color: var(--post-bg-color);
+}
+
+.postagem h2 {
+  color: var(--main-text-color);
+}
+
+.postagem p {
+  color: var(--secondary-text-color);
+}
