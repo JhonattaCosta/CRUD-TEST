@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CRUD-TEST
 
 ---
@@ -149,3 +150,6 @@ Desafie a si mesmo a melhorar este código! Faça o fork deste repositório, imp
 Este projeto é licenciado sob a Licença ISC. Veja mais detalhes em [ISC License](https://opensource.org/license/isc-license-txt).
 
 ---
+=======
+# CRUD-TEST
+>>>>>>> origin/main
